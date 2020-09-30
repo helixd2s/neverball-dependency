@@ -30,3 +30,14 @@
 *.exe
 *.out
 *.app
+
+#
+*/.vs
+*/.vs/
+*/.vs/*
+/.vs
+/.vs/
+/.vs/*
+.vs
+.vs/
+.vs/*

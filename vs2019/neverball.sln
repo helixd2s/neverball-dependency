@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30516.212
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "neverball", "neverball.vcxproj", "{753A0C0C-77ED-462D-AB87-0EAA3788C556}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mapc", "..\mapc\mapc.vcxproj", "{C7DE57DA-4703-497D-9530-310A616D201C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{753A0C0C-77ED-462D-AB87-0EAA3788C556}.Release|x64.Build.0 = Release|x64
 		{753A0C0C-77ED-462D-AB87-0EAA3788C556}.Release|x86.ActiveCfg = Release|Win32
 		{753A0C0C-77ED-462D-AB87-0EAA3788C556}.Release|x86.Build.0 = Release|Win32
+		{C7DE57DA-4703-497D-9530-310A616D201C}.Debug|x64.ActiveCfg = Debug|x64
+		{C7DE57DA-4703-497D-9530-310A616D201C}.Debug|x64.Build.0 = Debug|x64
+		{C7DE57DA-4703-497D-9530-310A616D201C}.Debug|x86.ActiveCfg = Debug|Win32
+		{C7DE57DA-4703-497D-9530-310A616D201C}.Debug|x86.Build.0 = Debug|Win32
+		{C7DE57DA-4703-497D-9530-310A616D201C}.Release|x64.ActiveCfg = Release|x64
+		{C7DE57DA-4703-497D-9530-310A616D201C}.Release|x64.Build.0 = Release|x64
+		{C7DE57DA-4703-497D-9530-310A616D201C}.Release|x86.ActiveCfg = Release|Win32
+		{C7DE57DA-4703-497D-9530-310A616D201C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

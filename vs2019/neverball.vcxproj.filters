@@ -479,9 +479,6 @@
     <ClInclude Include="..\ball\util.h">
       <Filter>Source Files\ball</Filter>
     </ClInclude>
-    <ClInclude Include="..\ball\version.h">
-      <Filter>Source Files\ball</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\neverball-dependency\include\glad\glad.h">
       <Filter>Source Files\glad</Filter>
     </ClInclude>

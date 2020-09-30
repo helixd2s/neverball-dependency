@@ -256,7 +256,6 @@
     <ClInclude Include="..\ball\st_start.h" />
     <ClInclude Include="..\ball\st_title.h" />
     <ClInclude Include="..\ball\util.h" />
-    <ClInclude Include="..\ball\version.h" />
     <ClInclude Include="..\share\array.h" />
     <ClInclude Include="..\share\audio.h" />
     <ClInclude Include="..\share\ball.h" />

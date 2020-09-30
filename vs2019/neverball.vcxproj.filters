@@ -1,0 +1,500 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\share">
+      <UniqueIdentifier>{7888a138-5b42-4f23-bb8a-3f7f5127e750}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ball">
+      <UniqueIdentifier>{54ab2ed7-7fbd-4130-aeaa-eaed5e4e3866}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sys">
+      <UniqueIdentifier>{e06fd450-6a05-49e9-8554-973e2477e7cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\glad">
+      <UniqueIdentifier>{747ce23a-4194-487c-8b15-2b348bfbd500}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\share\array.c">
+      <Filter>Source Files\share</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\audio.c">
+      <Filter>Source Files\share</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\ball.c">
+      <Filter>Source Files\share</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\base_config.c">
+      <Filter>Source Files\share</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\base_image.c">
+      <Filter>Source Files\share</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\binary.c">
+      <Filter>Source Files\share</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\cmd.c">
+      <Filter>Source Files\share</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\common.c">
+      <Filter>Source Files\share</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\config.c">
+      <Filter>Source Files\share</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\dir.c">
+      <Filter>Source Files\share</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\fbo.c">
+      <Filter>Source Files\share</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\font.c">
+      <Filter>Source Files\share</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\fs_common.c">
+      <Filter>Source Files\share</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\fs_jpg.c">
+      <Filter>Source Files\share</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\fs_ov.c">
+      <Filter>Source Files\share</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\fs_png.c">
+      <Filter>Source Files\share</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\fs_stdio.c">
+      <Filter>Source Files\share</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\geom.c">
+      <Filter>Source Files\share</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\glsl.c">
+      <Filter>Source Files\share</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\gui.c">
+      <Filter>Source Files\share</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\hmd_common.c">
+      <Filter>Source Files\share</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\hmd_null.c">
+      <Filter>Source Files\share</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\image.c">
+      <Filter>Source Files\share</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\joy.c">
+      <Filter>Source Files\share</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\lang.c">
+      <Filter>Source Files\share</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\list.c">
+      <Filter>Source Files\share</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\log.c">
+      <Filter>Source Files\share</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\miniz.c">
+      <Filter>Source Files\share</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\mtrl.c">
+      <Filter>Source Files\share</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\part.c">
+      <Filter>Source Files\share</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\queue.c">
+      <Filter>Source Files\share</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\solid_all.c">
+      <Filter>Source Files\share</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\solid_base.c">
+      <Filter>Source Files\share</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\solid_draw.c">
+      <Filter>Source Files\share</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\solid_sim_sol.c">
+      <Filter>Source Files\share</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\solid_vary.c">
+      <Filter>Source Files\share</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\st_common.c">
+      <Filter>Source Files\share</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\state.c">
+      <Filter>Source Files\share</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\text.c">
+      <Filter>Source Files\share</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\theme.c">
+      <Filter>Source Files\share</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\tilt_null.c">
+      <Filter>Source Files\share</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\vec3.c">
+      <Filter>Source Files\share</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\video.c">
+      <Filter>Source Files\share</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ball\demo.c">
+      <Filter>Source Files\ball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ball\demo_dir.c">
+      <Filter>Source Files\ball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ball\game_client.c">
+      <Filter>Source Files\ball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ball\game_common.c">
+      <Filter>Source Files\ball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ball\game_draw.c">
+      <Filter>Source Files\ball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ball\game_proxy.c">
+      <Filter>Source Files\ball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ball\game_server.c">
+      <Filter>Source Files\ball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ball\hud.c">
+      <Filter>Source Files\ball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ball\level.c">
+      <Filter>Source Files\ball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ball\main.c">
+      <Filter>Source Files\ball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ball\progress.c">
+      <Filter>Source Files\ball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ball\score.c">
+      <Filter>Source Files\ball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ball\set.c">
+      <Filter>Source Files\ball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ball\st_ball.c">
+      <Filter>Source Files\ball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ball\st_conf.c">
+      <Filter>Source Files\ball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ball\st_demo.c">
+      <Filter>Source Files\ball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ball\st_done.c">
+      <Filter>Source Files\ball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ball\st_fail.c">
+      <Filter>Source Files\ball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ball\st_goal.c">
+      <Filter>Source Files\ball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ball\st_help.c">
+      <Filter>Source Files\ball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ball\st_level.c">
+      <Filter>Source Files\ball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ball\st_name.c">
+      <Filter>Source Files\ball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ball\st_over.c">
+      <Filter>Source Files\ball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ball\st_pause.c">
+      <Filter>Source Files\ball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ball\st_play.c">
+      <Filter>Source Files\ball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ball\st_save.c">
+      <Filter>Source Files\ball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ball\st_set.c">
+      <Filter>Source Files\ball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ball\st_shared.c">
+      <Filter>Source Files\ball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ball\st_start.c">
+      <Filter>Source Files\ball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ball\st_title.c">
+      <Filter>Source Files\ball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ball\util.c">
+      <Filter>Source Files\ball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\neverball-dependency\include\sys\times.c">
+      <Filter>Source Files\sys</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\neverball-dependency\src\glad.c">
+      <Filter>Source Files\glad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\glext.c">
+      <Filter>Source Files\share</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\share\array.h">
+      <Filter>Source Files\share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\audio.h">
+      <Filter>Source Files\share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\ball.h">
+      <Filter>Source Files\share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\base_config.h">
+      <Filter>Source Files\share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\base_image.h">
+      <Filter>Source Files\share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\binary.h">
+      <Filter>Source Files\share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\cmd.h">
+      <Filter>Source Files\share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\common.h">
+      <Filter>Source Files\share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\config.h">
+      <Filter>Source Files\share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\dir.h">
+      <Filter>Source Files\share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\fbo.h">
+      <Filter>Source Files\share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\font.h">
+      <Filter>Source Files\share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\fs.h">
+      <Filter>Source Files\share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\fs_jpg.h">
+      <Filter>Source Files\share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\fs_ov.h">
+      <Filter>Source Files\share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\fs_png.h">
+      <Filter>Source Files\share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\geom.h">
+      <Filter>Source Files\share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\glsl.h">
+      <Filter>Source Files\share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\gui.h">
+      <Filter>Source Files\share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\hmd.h">
+      <Filter>Source Files\share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\hmd_common.h">
+      <Filter>Source Files\share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\image.h">
+      <Filter>Source Files\share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\joy.h">
+      <Filter>Source Files\share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\lang.h">
+      <Filter>Source Files\share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\list.h">
+      <Filter>Source Files\share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\log.h">
+      <Filter>Source Files\share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\miniz.h">
+      <Filter>Source Files\share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\mtrl.h">
+      <Filter>Source Files\share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\part.h">
+      <Filter>Source Files\share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\queue.h">
+      <Filter>Source Files\share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\solid_all.h">
+      <Filter>Source Files\share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\solid_base.h">
+      <Filter>Source Files\share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\solid_draw.h">
+      <Filter>Source Files\share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\solid_sim.h">
+      <Filter>Source Files\share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\solid_vary.h">
+      <Filter>Source Files\share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\st_common.h">
+      <Filter>Source Files\share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\state.h">
+      <Filter>Source Files\share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\text.h">
+      <Filter>Source Files\share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\theme.h">
+      <Filter>Source Files\share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\tilt.h">
+      <Filter>Source Files\share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\vec3.h">
+      <Filter>Source Files\share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\video.h">
+      <Filter>Source Files\share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\zip.h">
+      <Filter>Source Files\share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ball\demo.h">
+      <Filter>Source Files\ball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ball\demo_dir.h">
+      <Filter>Source Files\ball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ball\game_client.h">
+      <Filter>Source Files\ball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ball\game_common.h">
+      <Filter>Source Files\ball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ball\game_draw.h">
+      <Filter>Source Files\ball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ball\game_proxy.h">
+      <Filter>Source Files\ball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ball\game_server.h">
+      <Filter>Source Files\ball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ball\hud.h">
+      <Filter>Source Files\ball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ball\level.h">
+      <Filter>Source Files\ball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ball\progress.h">
+      <Filter>Source Files\ball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ball\score.h">
+      <Filter>Source Files\ball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ball\set.h">
+      <Filter>Source Files\ball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ball\st_ball.h">
+      <Filter>Source Files\ball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ball\st_conf.h">
+      <Filter>Source Files\ball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ball\st_demo.h">
+      <Filter>Source Files\ball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ball\st_done.h">
+      <Filter>Source Files\ball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ball\st_fail.h">
+      <Filter>Source Files\ball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ball\st_goal.h">
+      <Filter>Source Files\ball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ball\st_help.h">
+      <Filter>Source Files\ball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ball\st_level.h">
+      <Filter>Source Files\ball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ball\st_name.h">
+      <Filter>Source Files\ball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ball\st_over.h">
+      <Filter>Source Files\ball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ball\st_pause.h">
+      <Filter>Source Files\ball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ball\st_play.h">
+      <Filter>Source Files\ball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ball\st_save.h">
+      <Filter>Source Files\ball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ball\st_set.h">
+      <Filter>Source Files\ball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ball\st_shared.h">
+      <Filter>Source Files\ball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ball\st_start.h">
+      <Filter>Source Files\ball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ball\st_title.h">
+      <Filter>Source Files\ball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ball\util.h">
+      <Filter>Source Files\ball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ball\version.h">
+      <Filter>Source Files\ball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\neverball-dependency\include\glad\glad.h">
+      <Filter>Source Files\glad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\glext.h">
+      <Filter>Source Files\share</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\share\Makefile">
+      <Filter>Source Files\share</Filter>
+    </None>
+    <None Include="..\ball\Makefile">
+      <Filter>Source Files\ball</Filter>
+    </None>
+  </ItemGroup>
+</Project>

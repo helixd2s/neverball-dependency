@@ -1,0 +1,13 @@
+prefix=H:/Data/neverball-dependency
+exec_prefix=H:/Data/neverball-dependency
+libdir=H:/Data/neverball-dependency/lib
+sharedlibdir=H:/Data/neverball-dependency/lib
+includedir=H:/Data/neverball-dependency/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.11
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

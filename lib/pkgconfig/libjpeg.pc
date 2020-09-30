@@ -1,0 +1,10 @@
+prefix=H:/Data/neverball-dependency
+exec_prefix=H:/Data/neverball-dependency
+libdir=H:/Data/neverball-dependency/lib
+includedir=H:/Data/neverball-dependency/include
+
+Name: libjpeg
+Description: A SIMD-accelerated JPEG codec that provides the libjpeg API
+Version: 2.0.5
+Libs: -L${libdir} -ljpeg
+Cflags: -I${includedir}
